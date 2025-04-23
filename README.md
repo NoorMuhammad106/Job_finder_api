@@ -5,7 +5,7 @@ A FastAPI-based job search application that aggregates and filters job listings 
 ## Features
 
 - Aggregates job listings from LinkedIn, Indeed, and Rozee.pk
-- Uses OpenAI's GPT-3.5 for intelligent job matching
+- Uses job filtering  for intelligent job matching
 - Filters jobs based on position, experience, skills, location, and salary
 - Returns structured job listings with detailed information
 
@@ -17,7 +17,7 @@ A FastAPI-based job search application that aggregates and filters job listings 
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file with your OpenAI API key:
+3. Create a .env file with your OpenAI API key:
 ```
 OPENAI_API_KEY=your_api_key_here
 ```
@@ -83,8 +83,8 @@ Search for jobs based on specific criteria.
 
 ## Future Improvements
 
-- Add more job sources
+- Add more job sources like (Indeed, Rozee.pk)
 - Implement real-time job scraping
-- Add job application tracking
+- Add job application filtering using LLM
 - Implement user authentication
-- Add job recommendations based on user profile 
+- Add job recommendations based on the user profile 
